@@ -21,6 +21,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Azure.Identity" VersionOverride="1.21.0" />
     <PackageReference Include="Microsoft.Azure.Kusto.Data" />
     <PackageReference Include="System.Formats.Asn1" />
   </ItemGroup>
